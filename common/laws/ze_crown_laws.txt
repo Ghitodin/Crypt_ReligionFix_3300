@@ -57,6 +57,7 @@ de_jure_laws = {
 			holder_scope = {
 				is_tribal = no
 				is_nomadic = no
+				is_republic = no
 				NOT = {
 					government = order_government
 				}
@@ -159,8 +160,11 @@ de_jure_laws = {
 				has_law = vassal_wars_law_2
 			}
 			holder_scope = {
-				primary_title = {
-					has_law = ze_administration_laws_2
+				OR = {
+					primary_title = {
+						has_law = ze_administration_laws_2
+					}
+					is_republic = yes
 				}
 			}
 		}
@@ -209,8 +213,11 @@ de_jure_laws = {
 		allow = {
 			has_law = vassal_wars_law_1
 			holder_scope = {
-				primary_title = {
-					has_law = ze_administration_laws_2
+				OR = {
+					primary_title = {
+						has_law = ze_administration_laws_2
+					}
+					is_republic = yes
 				}
 			}
 		}
