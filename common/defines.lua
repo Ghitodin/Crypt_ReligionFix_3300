@@ -1303,7 +1303,7 @@ NMilitary = {
 
 	EVENT_TROOPS_SIZE_MULT = 1.0,							-- Applied to match_mult to determine size of troops spawned from events & history
 
-	OCCUPATION_PENALTY_MONTHS = 12,					-- This and below are different modifier lengths applied to settlements upon conquest
+	OCCUPATION_PENALTY_MONTHS = 36,					-- This and below are different modifier lengths applied to settlements upon conquest
 	OCCUPATION_PENALTY_MONTHS_DIFFERENT_RELIGION = 90,
 	OCCUPATION_PENALTY_MONTHS_DIFFERENT_RELIGIONGROUP = 180,
 	OCCUPATION_PENALTY_MONTHS_DIFFERENT_CULTURE = 60,
