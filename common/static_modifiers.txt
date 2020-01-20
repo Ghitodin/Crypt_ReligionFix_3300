@@ -41,13 +41,13 @@ normal_ai = {
 hard_ai = {
 	land_morale = 0.25
 	global_tax_modifier = 0.1
-	levy_reinforce_rate = 0.5
+	levy_reinforce_rate = 0.25
 }
 
 very_hard_ai = {
 	land_morale = 0.6
 	global_tax_modifier = 0.2
-	levy_reinforce_rate = 1.0
+	levy_reinforce_rate = 0.25
 }
 
 ##########################################################################
