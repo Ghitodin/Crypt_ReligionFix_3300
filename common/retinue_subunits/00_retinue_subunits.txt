@@ -168,8 +168,8 @@ RETTYPE_INF2 =
 	
 	modifier = {
 		archers_defensive = 0.2
-		pikemen_defensive = 0.4
-		pikemen_offensive = 0.2
+		pikemen_defensive = 0.2
+		pikemen_offensive = 0.1
 	}
 }
 
@@ -185,8 +185,8 @@ RETTYPE_CAV1 =
 	}
 	
 	modifier = {
-		light_cavalry_offensive = 0.2
-		light_cavalry_defensive = 0.2
+		light_cavalry_offensive = 0.15
+		light_cavalry_defensive = 0.15
 	}
 }
 
@@ -222,8 +222,8 @@ RETTYPE_SKIR2 =
 	modifier = {
 		archers_offensive = 0.2
 		archers_defensive = 0.1
-		light_infantry_defensive = 0.2
-		light_infantry_morale = 0.2
+		light_infantry_defensive = 0.1
+		light_infantry_morale = 0.1
 	}
 }
 
@@ -257,7 +257,7 @@ RETTYPE_CUL_SCOT =
 	}
 	
 	modifier = {
-		pikemen_defensive = 0.4
+		pikemen_defensive = 0.2
 		pikemen_offensive = 0.2
 		pikemen_morale = 0.2
 	}
@@ -277,7 +277,7 @@ RETTYPE_CUL_BALT =
 	}
 	
 	modifier = {
-		heavy_infantry_defensive = 0.3
+		heavy_infantry_defensive = 0.2
 		heavy_infantry_morale = 0.1
 	}
 }
@@ -304,7 +304,7 @@ RETTYPE_CUL_ALTAIC =
 	}
 	
 	modifier = {
-		horse_archers_offensive = 0.2
+		horse_archers_offensive = 0.1
 		horse_archers_morale = 0.12
 	}
 }
@@ -331,7 +331,7 @@ RETTYPE_CUL_FRANK_NOR_GER =
 	modifier = {
 		knights_offensive = 0.1
 		knights_defensive = 0.1
-		knights_morale = 0.2
+		knights_morale = 0.1
 	}
 }
 
@@ -346,8 +346,8 @@ RETTYPE_CUL_IBER =
 	}
 	
 	modifier = {
-		light_cavalry_offensive = 0.2
-		light_cavalry_morale = 0.2
+		light_cavalry_offensive = 0.15
+		light_cavalry_morale = 0.15
 	}
 }
 
@@ -367,7 +367,7 @@ RETTYPE_CUL_ITA =
 	modifier = {
 		pikemen_offensive = 0.2
 		pikemen_defensive = 0.2
-		pikemen_morale = 0.4
+		pikemen_morale = 0.3
 	}
 }
 
@@ -386,9 +386,9 @@ RETTYPE_CUL_ROMAN =
 	modifier = {
 		pikemen_offensive = 0.2
 		pikemen_defensive = 0.2
-		pikemen_morale = 0.4
-		heavy_infantry_offensive = 0.25
-		heavy_infantry_defensive = 0.25
+		pikemen_morale = 0.3
+		heavy_infantry_offensive = 0.15
+		heavy_infantry_defensive = 0.15
 		heavy_infantry_morale = 0.2
 	}
 }
@@ -405,7 +405,7 @@ RETTYPE_CUL_RUS =
 	
 	modifier = {
 		heavy_infantry_offensive = 0.1
-		heavy_infantry_defensive = 0.5
+		heavy_infantry_defensive = 0.4
 		heavy_infantry_morale = 0.2
 	}
 }
@@ -426,8 +426,8 @@ RETTYPE_CUL_NORTHGER =
 	}
 	
 	modifier = {
-		heavy_infantry_offensive = 0.4
-		heavy_infantry_morale = 0.2
+		heavy_infantry_offensive = 0.3
+		heavy_infantry_morale = 0.15
 	}
 }
 
@@ -445,7 +445,7 @@ RETTYPE_CUL_HUNG =
 	}
 	
 	modifier = {
-		light_cavalry_defensive = 0.6
+		light_cavalry_defensive = 0.4
 		light_cavalry_morale = 0.2
 	}
 }
@@ -465,9 +465,9 @@ RETTYPE_CUL_ARAB =
 	}
 	
 	modifier = {
-		camel_cavalry_offensive = 0.2
-		camel_cavalry_defensive = 0.2
-		camel_cavalry_morale = 0.2
+		camel_cavalry_offensive = 0.1
+		camel_cavalry_defensive = 0.1
+		camel_cavalry_morale = 0.1
 	}
 }
 
@@ -482,9 +482,9 @@ RETTYPE_CUL_ANDALUSIAN =
 	}
 
 	modifier = {
-		light_cavalry_defensive = 0.4
-		light_cavalry_offensive = 0.2
-		light_cavalry_morale = 0.2
+		light_cavalry_defensive = 0.3
+		light_cavalry_offensive = 0.15
+		light_cavalry_morale = 0.15
 	}
 }
 
@@ -499,8 +499,8 @@ RETTYPE_CUL_BERBER =
 	}
 
 	modifier = {
-		light_cavalry_offensive = 0.5
-		light_cavalry_morale = 0.3
+		light_cavalry_offensive = 0.3
+		light_cavalry_morale = 0.2
 	}
 }
 
@@ -541,7 +541,7 @@ RETTYPE_CUL_IRISH =
 	}
 	
 	modifier = {
-		heavy_infantry_defensive = 0.4
+		heavy_infantry_defensive = 0.3
 		heavy_infantry_morale = 0.2
 	}
 }
@@ -557,8 +557,8 @@ RETTYPE_CUL_ETHIO =
 	}
 	
 	modifier = {
-		light_infantry_offensive = 0.5
-		light_infantry_defensive = 0.3
+		light_infantry_offensive = 0.4
+		light_infantry_defensive = 0.25
 	}
 }
 
@@ -573,7 +573,7 @@ RETTYPE_CUL_SOMALI =
 	}
 	
 	modifier = {
-		light_infantry_offensive = 0.4
+		light_infantry_offensive = 0.3
 		light_infantry_defensive = 0.4
 	}
 }
@@ -596,7 +596,7 @@ RETTYPE_CUL_W_AFR =
 	}
 	
 	modifier = {
-		light_infantry_offensive = 0.6
+		light_infantry_offensive = 0.4
 		light_infantry_defensive = 0.1
 		light_infantry_morale = 0.1
 	}
@@ -659,7 +659,7 @@ RETTYPE_CUL_NAHUA =
 	}
 	
 	modifier = {
-		light_infantry_offensive = 0.4
+		light_infantry_offensive = 0.3
 		light_infantry_morale = 0.2
 		heavy_infantry_offensive = 0.2
 		heavy_infantry_morale = 0.1
@@ -678,7 +678,7 @@ RETTYPE_CUL_JEWISH =
 	
 	modifier = {
 		heavy_infantry_defensive = 0.2
-		heavy_infantry_morale = 0.1
+		heavy_infantry_morale = 0.2
 	}
 }
 
@@ -1221,7 +1221,7 @@ RETTYPE_CUL_TIBET =
 	}
 	
 	modifier = {
-		light_infantry_offensive = 0.5
+		light_infantry_offensive = 0.3
 		light_infantry_defensive = 0.3
 		light_infantry_morale = 0.1
 		light_cavalry_offensive = 0.2
@@ -1431,7 +1431,7 @@ RETTYPE_CUL_OUTREMER =
 	}
 	
 	modifier = {
-		camel_cavalry_offensive = 0.2
+		camel_cavalry_offensive = 0.1
 		camel_cavalry_morale = 0.1
 		knights_offensive = 0.1
 		knights_morale = 0.1
@@ -1451,8 +1451,7 @@ RETTYPE_CUL_ARBERIAN =
 	modifier = {
 		light_cavalry_defensive = 0.2
 		light_cavalry_offensive = 0.2
-		light_cavalry_morale = 0.4
-	}
+		light_cavalry_morale = 0.3
 }
 
 RETTYPE_CUL_SAR = 
@@ -1471,6 +1470,6 @@ RETTYPE_CUL_SAR =
 		archers_defensive = 0.2
 		pikemen_defensive = 0.2
 		pikemen_offensive = 0.2
-		pikemen_morale = 0.4
+		pikemen_morale = 0.3
 	}
 }
