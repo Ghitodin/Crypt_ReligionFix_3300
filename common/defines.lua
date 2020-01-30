@@ -1387,7 +1387,7 @@ NMilitary = {
 	KNIGHTS_MORALE = 10,
 	KNIGHTS_MAINTENANCE = 6,
 	KNIGHTS_PHASE_SKIRMISH_ATTACK = 0.5,
-	KNIGHTS_PHASE_MELEE_ATTACK = 10,
+	KNIGHTS_PHASE_MELEE_ATTACK = 8,
 	KNIGHTS_PHASE_PURSUE_ATTACK = 4,
 	KNIGHTS_PHASE_SKIRMISH_DEFENSE = 6,
 	KNIGHTS_PHASE_MELEE_DEFENSE = 6,
@@ -1424,7 +1424,7 @@ NMilitary = {
 	GALLEYS_PHASE_PURSUE_DEFENSE = 1,
 	GALLEYS_GRAPHICAL_FACTOR = 1,
 
-	COMMAND_MODIFIER_MARTIAL_MULTIPLIER = 0.03,	  -- How much positive command modifiers are increased, and negative modifiers decreased (capped to 100% for negative), per point of martial
+	COMMAND_MODIFIER_MARTIAL_MULTIPLIER = 0.05,	  -- How much positive command modifiers are increased, and negative modifiers decreased (capped to 100% for negative), per point of martial
 
 	MAX_RIVER_MOVEMENT_FORT_LEVEL = 10.0,
 	BOTTLENECK_SIZE_MODIFIER = 1.0,
