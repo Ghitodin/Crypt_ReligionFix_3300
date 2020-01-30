@@ -31,11 +31,11 @@ NDiplomacy = {
 	DEMESNE_BASE_MAX_SIZE = 1.0,				-- Base Max Demesne Size
 	DEMESNE_MAX_SIZE_BARON_MULT = 1.0, 			-- Extra Max Demesne Size from the ruler's rank
 	DEMESNE_MAX_SIZE_COUNT_MULT = 1.0, 			-- Extra Max Demesne Size from the ruler's rank
-	DEMESNE_MAX_SIZE_DUKE_MULT = 1.0,			-- Extra Max Demesne Size from the ruler's rank
-	DEMESNE_MAX_SIZE_KING_MULT = 3.0,			-- Extra Max Demesne Size from the ruler's rank
-	DEMESNE_MAX_SIZE_EMPEROR_MULT = 4.0,		-- Extra Max Demesne Size from the ruler's rank
-	DEMESNE_MAX_SIZE_GREAT_DUKE_BONUS = 1.0,	-- Extra Max Demesne Size for Dukes with more than one Duchy
-	DEMESNE_MAX_SIZE_STEWARDSHIP_MULT = 0.15,	-- Extra Max Demesne Size from ruler and spouse stewardship
+	DEMESNE_MAX_SIZE_DUKE_MULT = 2.0,			-- Extra Max Demesne Size from the ruler's rank
+	DEMESNE_MAX_SIZE_KING_MULT = 2.0,			-- Extra Max Demesne Size from the ruler's rank
+	DEMESNE_MAX_SIZE_EMPEROR_MULT = 2.0,		-- Extra Max Demesne Size from the ruler's rank
+	DEMESNE_MAX_SIZE_GREAT_DUKE_BONUS = 2.0,	-- Extra Max Demesne Size for Dukes with more than one Duchy
+	DEMESNE_MAX_SIZE_STEWARDSHIP_MULT = 0.21,	-- Extra Max Demesne Size from ruler and spouse stewardship
 	DEMESNE_MAX_SIZE_PATRICIAN = 1.0,			-- Extra Max Demesne Size for Patricians (Tier effects do no not apply to Patricians!)
 	DEMESNE_MAX_SIZE_PATRICIAN_DOGE = 1.0,		-- Extra Max Demesne Size for a Patrician Doge (Tier effects do no not apply to Patricians!)
 	GAVELKIND_MAX_SIZE_BONUS = 0.30,			-- Max demesne size bonus from Gavelkind
@@ -48,9 +48,9 @@ NDiplomacy = {
 	VASSAL_BASE_LIMIT = 1.0,					-- Base Vassal Limit
 	VASSAL_LIMIT_DUKE_MULT = 10.0, 				-- Extra Vassal Limit from the ruler's rank
 	VASSAL_LIMIT_KING_MULT = 20.0, 				-- Extra Vassal Limit from the ruler's rank
-	VASSAL_LIMIT_EMPEROR_MULT = 30.0, 			-- Extra Vassal Limit from the ruler's rank
+	VASSAL_LIMIT_EMPEROR_MULT = 25.0, 			-- Extra Vassal Limit from the ruler's rank
 	VASSAL_LIMIT_GREAT_DUKE_BONUS = 5.0, 		-- Extra Vassal Limit for Dukes with more than one Duchy
-	VASSAL_LIMIT_DIPLOMACY_MULT = 0.3,			-- Extra Vassal Limit from ruler and spouse diplomacy
+	VASSAL_LIMIT_DIPLOMACY_MULT = 0.42,			-- Extra Vassal Limit from ruler and spouse diplomacy
 	VASSAL_LIMIT_DECADENCE_MULTIPLIER = 0.25,	-- Negative modifier, multiplied with the current decadence.
 	VASSAL_LIMIT_LEVY_MULTIPLIER = 1,			-- Used for levy penalty calculation for being over vassal limit.
 	VASSAL_LIMIT_LEVY_BASE = 4,					-- Used for levy penalty calculation for being over vassal limit.
@@ -63,8 +63,8 @@ NDiplomacy = {
 	GAME_RULE_VASSAL_LIMIT_UNLIMITED = 5000,	-- Vassal limit when using "vassal limit: unlimited" game rule
 
 	CONCLAVE_VASSAL_LIMIT_DUKE_MULT = 8.0, 				-- Extra Vassal Limit from the ruler's rank
-	CONCLAVE_VASSAL_LIMIT_KING_MULT = 15.0, 				-- Extra Vassal Limit from the ruler's rank
-	CONCLAVE_VASSAL_LIMIT_EMPEROR_MULT = 20.0, 			-- Extra Vassal Limit from the ruler's rank
+	CONCLAVE_VASSAL_LIMIT_KING_MULT = 12.0, 				-- Extra Vassal Limit from the ruler's rank
+	CONCLAVE_VASSAL_LIMIT_EMPEROR_MULT = 15.0, 			-- Extra Vassal Limit from the ruler's rank
 	CONCLAVE_VASSAL_LIMIT_GREAT_DUKE_BONUS = 3.0, 		-- Extra Vassal Limit for Dukes with more than one Duchy
 
 	OBJECTIVE_DISCARD_WEIGHT_THRESHOLD = 0.05,					-- AI will not pick ambitions or plots below this evaluated weight
@@ -84,7 +84,7 @@ NDiplomacy = {
 	PAGAN_PEACE_MONTHS = 24,									-- Months before the Peace Prestige loss kicks in for certain Pagan religions
 	PAGAN_PEACE_MONTHLY_PRESTIGE_LOSS = 2.0,					-- Prestige loss for being at peace, for certain Pagan religions
 	PRESTIGE_OPINION_DIV = 200,									-- Divider for prestige to vassal opinion (5x higher effect for negative prestige)
-	PRESTIGE_OPINION_MAX = 10,									-- Max opinion impact of prestige (positive OR negative)
+	PRESTIGE_OPINION_MAX = 5,									-- Max opinion impact of prestige (positive OR negative)
 	PIETY_OPINION_DIV = 50,										-- Divider for piety to church opinion
 	PIETY_OPINION_MAX = 10,										-- Max opinion impact of piety (positive OR negative)
 	MIN_PREP_INV_TARGET_HOLDINGS = 9,							-- The target must control at least this many holdings within the target kingdom to be a valid prepared invasion target
@@ -107,8 +107,8 @@ NDiplomacy = {
 	TRIBUTARY_UPRISING_AI_STRONG_LEVEL = 1.5,					-- Bonus will be applied to chances of accepting a call to arms from another tributary during an uprising, if the total forces of the tributaries are at least this strong compared to the forces of the Suzerain
 
 	DUKE_POWERFUL_VASSAL_COUNT = 4,				-- The x most powerful vassal will expect a seat in the council
-	KING_POWERFUL_VASSAL_COUNT = 5,				-- The x most powerful vassal will expect a seat in the council
-	EMPEROR_POWERFUL_VASSAL_COUNT = 6,			-- The x most powerful vassal will expect a seat in the council
+	KING_POWERFUL_VASSAL_COUNT = 6,				-- The x most powerful vassal will expect a seat in the council
+	EMPEROR_POWERFUL_VASSAL_COUNT = 12,			-- The x most powerful vassal will expect a seat in the council
 
 	IMPRISON_CHARACTER_INTERACTION_MONEY = 0,
 	IMPRISON_CHARACTER_INTERACTION_PIETY = 10,
@@ -825,7 +825,7 @@ NInfamy = {
 	MIN_INFAMY_DECAY = 0.21,									-- The minimum infamy decay regardless of troop strength.
 	MAX_INFAMY_DECAY = 0.4,										-- The maximum infamy decay regardless of troop strength.
 	MILITARY_STRENGTH_DECAY_BASE = 600,							-- Divider on military strength value that is used for the logarithmic part of the decay value.
-	MAX_INFAMY_PER_WAR_PROVINCE = 15,							-- A single province taken in war can give at most this much threat
+	MAX_INFAMY_PER_WAR_PROVINCE = 10,							-- A single province taken in war can give at most this much threat
 	MIN_INFAMY_PER_WAR_PROVINCE = 2,							-- A single province taken in war can give at most this much threat
 },
 
@@ -928,15 +928,15 @@ NTitle = {
 	BARON_AS_VASSAL_PRESTIGE = 0.025,
 	COUNT_AS_VASSAL_PRESTIGE = 0.1,
 	DUKE_AS_VASSAL_PRESTIGE = 0.4,
-	KING_AS_VASSAL_PRESTIGE = 1.6,
-	EMPEROR_AS_VASSAL_PRESTIGE = 3.2, 	-- Impossible, but needs to be here
+	KING_AS_VASSAL_PRESTIGE = 0.5,
+	EMPEROR_AS_VASSAL_PRESTIGE = 1.2, 	-- Impossible, but needs to be here
 
 -- Monthly prestige from held titles
 	BARON_TITLE_PRESTIGE = 0.025,
 	COUNT_TITLE_PRESTIGE = 0.1,
 	DUKE_TITLE_PRESTIGE = 0.2,
-	KING_TITLE_PRESTIGE = 0.8,
-	EMPEROR_TITLE_PRESTIGE = 1.6,
+	KING_TITLE_PRESTIGE = 0.4,
+	EMPEROR_TITLE_PRESTIGE = 0.5,
 
 -- Monthly prestige LOSS from each unlanded adult son
 	BARON_LANDLESS_SON_PRESTIGE = 0.025,
@@ -949,8 +949,8 @@ NTitle = {
 	BARON_TITLE_DYNASTY_PRESTIGE = 1,
 	COUNT_TITLE_DYNASTY_PRESTIGE = 5,
 	DUKE_TITLE_DYNASTY_PRESTIGE = 10,
-	KING_TITLE_DYNASTY_PRESTIGE = 20,
-	EMPEROR_TITLE_DYNASTY_PRESTIGE = 40,
+	KING_TITLE_DYNASTY_PRESTIGE = 13,
+	EMPEROR_TITLE_DYNASTY_PRESTIGE = 15,
 
 -- Piety from giving titles to the Church or Holy Orders
 	BARON_GRANT_TO_CHURCH_PIETY = 25,
@@ -964,28 +964,28 @@ NTitle = {
 	COUNT_GOLD_CREATION_COST = 100, -- Unused, impossible
 	DUKE_GOLD_CREATION_COST = 200,
 	KING_GOLD_CREATION_COST = 400,
-	EMPEROR_GOLD_CREATION_COST = 600,
+	EMPEROR_GOLD_CREATION_COST = 1800,
 
 -- Title Creation Cost
 	BARON_PIETY_CREATION_COST = 0, -- Unused, impossible
 	COUNT_PIETY_CREATION_COST = 0, -- Unused, impossible
 	DUKE_PIETY_CREATION_COST = 0,
 	KING_PIETY_CREATION_COST = 200,
-	EMPEROR_PIETY_CREATION_COST = 400,
+	EMPEROR_PIETY_CREATION_COST = 600,
 
 -- Title Creation Prestige Gain
 	BARON_CREATION_PRESTIGE = 50, -- Granted when building a new settlement
 	COUNT_CREATION_PRESTIGE = 100, -- Unused, impossible
 	DUKE_CREATION_PRESTIGE = 200,
-	KING_CREATION_PRESTIGE = 400,
-	EMPEROR_CREATION_PRESTIGE = 800,
+	KING_CREATION_PRESTIGE = 200,
+	EMPEROR_CREATION_PRESTIGE = 300,
 
 -- Title Destruction Prestige Cost
 	BARON_DESTRUCTION_PRESTIGE_COST = 0, -- Unused, impossible
 	COUNT_DESTRUCTION_PRESTIGE_COST = 0, -- Unused, impossible
 	DUKE_DESTRUCTION_PRESTIGE_COST = 200,
 	KING_DESTRUCTION_PRESTIGE_COST = 400,
-	EMPEROR_DESTRUCTION_PRESTIGE_COST = 800,
+	EMPEROR_DESTRUCTION_PRESTIGE_COST = 500,
 
 -- Title Claiming Prestige Cost
 	BARON_CLAIM_PRESTIGE_COST = 150,
@@ -1047,8 +1047,8 @@ NTitle = {
 -- Title creation and usurpation requirements
 	DEJURE_COUNTY_LIMIT_TO_CREATE = 0.51,			-- Fraction of de jure counties that you must control to create a non-imperial title
 	DEJURE_COUNTY_LIMIT_TO_USURP = 0.51,			-- Fraction of de jure counties that you must control to usurp a non-imperial title
-	EMPIRE_DEJURE_COUNTY_LIMIT_TO_CREATE = 0.8,		-- Fraction of de jure counties that you must control to create an imperial title
-	EMPIRE_DEJURE_COUNTY_LIMIT_TO_USURP = 0.8,		-- Fraction of de jure counties that you must control to usurp an imperial title
+	EMPIRE_DEJURE_COUNTY_LIMIT_TO_CREATE = 0.85,		-- Fraction of de jure counties that you must control to create an imperial title
+	EMPIRE_DEJURE_COUNTY_LIMIT_TO_USURP = 0.80,		-- Fraction of de jure counties that you must control to usurp an imperial title
 
 	CUSTOM_TITLE_COLOR_OFFSET = 0.35					-- The offset from the base title color when creating a new title
 },
