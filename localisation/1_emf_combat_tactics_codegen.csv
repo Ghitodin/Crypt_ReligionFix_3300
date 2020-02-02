@@ -1,0 +1,164 @@
+#CODE;ENGLISH;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+########################################################################
+# NOTE: This file is code-generated and should NOT be edited manually. #
+########################################################################
+glorious_charge_tactic;Glorious Closing Charge Tactic;;;;;;;;;;;;;x
+good_charge_tactic;Devastating Closing Charge Tactic;;;;;;;;;;;;;x
+charge_tactic;Closing Charge Tactic;;;;;;;;;;;;;x
+bad_charge_tactic;Failed Closing Charge Tactic;;;;;;;;;;;;;x
+glorious_closing_advance_tactic;Glorious Closing Advance Tactic;;;;;;;;;;;;;x
+good_closing_advance_tactic;Devastating Closing Advance Tactic;;;;;;;;;;;;;x
+closing_advance_tactic;Closing Advance Tactic;;;;;;;;;;;;;x
+bad_closing_advance_tactic;Failed Closing Advance Tactic;;;;;;;;;;;;;x
+glorious_harass_tactic;Glorious Harass Tactic;;;;;;;;;;;;;x
+good_harass_tactic;Devastating Harass Tactic;;;;;;;;;;;;;x
+harass_tactic;Harass Tactic;;;;;;;;;;;;;x
+bad_harass_tactic;Failed Harass Tactic;;;;;;;;;;;;;x
+glorious_volley_tactic;Glorious Volley Tactic;;;;;;;;;;;;;x
+good_volley_tactic;Devastating Volley Tactic;;;;;;;;;;;;;x
+volley_tactic;Volley Tactic;;;;;;;;;;;;;x
+bad_volley_tactic;Failed Volley Tactic;;;;;;;;;;;;;x
+glorious_swarm_tactic;Glorious Swarm Tactic;;;;;;;;;;;;;x
+good_swarm_tactic;Devastating Swarm Tactic;;;;;;;;;;;;;x
+swarm_tactic;Swarm Tactic;;;;;;;;;;;;;x
+bad_swarm_tactic;Failed Swarm Tactic;;;;;;;;;;;;;x
+glorious_pike_square_tactic;Glorious Pike Square Tactic;;;;;;;;;;;;;x
+good_pike_square_tactic;Devastating Pike Square Tactic;;;;;;;;;;;;;x
+pike_square_tactic;Pike Square Tactic;;;;;;;;;;;;;x
+bad_pike_square_tactic;Failed Pike Square Tactic;;;;;;;;;;;;;x
+glorious_shieldwall_tactic;Glorious Shieldwall Tactic;;;;;;;;;;;;;x
+good_shieldwall_tactic;Devastating Shieldwall Tactic;;;;;;;;;;;;;x
+shieldwall_tactic;Shieldwall Tactic;;;;;;;;;;;;;x
+bad_shieldwall_tactic;Failed Shieldwall Tactic;;;;;;;;;;;;;x
+glorious_delay_tactic;Glorious Delay Tactic;;;;;;;;;;;;;x
+good_delay_tactic;Devastating Delay Tactic;;;;;;;;;;;;;x
+delay_tactic;Delay Tactic;;;;;;;;;;;;;x
+bad_delay_tactic;Failed Delay Tactic;;;;;;;;;;;;;x
+glorious_melee_charge_tactic;Glorious Charge Tactic;;;;;;;;;;;;;x
+good_melee_charge_tactic;Devastating Charge Tactic;;;;;;;;;;;;;x
+melee_charge_tactic;Charge Tactic;;;;;;;;;;;;;x
+bad_melee_charge_tactic;Failed Charge Tactic;;;;;;;;;;;;;x
+glorious_raid_tactic;Glorious Raid Tactic;;;;;;;;;;;;;x
+good_raid_tactic;Devastating Raid Tactic;;;;;;;;;;;;;x
+raid_tactic;Raid Tactic;;;;;;;;;;;;;x
+bad_raid_tactic;Failed Raid Tactic;;;;;;;;;;;;;x
+glorious_advance_tactic;Glorious Advance Tactic;;;;;;;;;;;;;x
+good_advance_tactic;Devastating Advance Tactic;;;;;;;;;;;;;x
+advance_tactic;Advance Tactic;;;;;;;;;;;;;x
+bad_advance_tactic;Failed Advance Tactic;;;;;;;;;;;;;x
+glorious_stand_fast_tactic;Glorious Stand Fast Tactic;;;;;;;;;;;;;x
+good_stand_fast_tactic;Devastating Stand Fast Tactic;;;;;;;;;;;;;x
+stand_fast_tactic;Stand Fast Tactic;;;;;;;;;;;;;x
+bad_stand_fast_tactic;Failed Stand Fast Tactic;;;;;;;;;;;;;x
+good_awesome_closing_charge_tactic;Devastating Awesome Closing Charge Tactic;;;;;;;;;;;;;x
+awesome_closing_charge_tactic;Awesome Closing Charge Tactic;;;;;;;;;;;;;x
+bad_awesome_closing_charge_tactic;Failed Awesome Closing Charge Tactic;;;;;;;;;;;;;x
+good_heavy_closing_charge_tactic;Devastating Heavy Closing Charge Tactic;;;;;;;;;;;;;x
+heavy_closing_charge_tactic;Heavy Closing Charge Tactic;;;;;;;;;;;;;x
+bad_heavy_closing_charge_tactic;Failed Heavy Closing Charge Tactic;;;;;;;;;;;;;x
+good_combined_closing_charge_tactic;Devastating Combined Closing Charge Tactic;;;;;;;;;;;;;x
+combined_closing_charge_tactic;Combined Closing Charge Tactic;;;;;;;;;;;;;x
+bad_combined_closing_charge_tactic;Failed Combined Closing Charge Tactic;;;;;;;;;;;;;x
+good_embolon_closing_charge_tactic;Devastating Embolon Closing Charge Tactic;;;;;;;;;;;;;x
+embolon_closing_charge_tactic;Embolon Closing Charge Tactic;;;;;;;;;;;;;x
+bad_embolon_closing_charge_tactic;Failed Embolon Closing Charge Tactic;;;;;;;;;;;;;x
+good_shock_closing_charge_tactic;Devastating Shock Closing Charge Tactic;;;;;;;;;;;;;x
+shock_closing_charge_tactic;Shock Closing Charge Tactic;;;;;;;;;;;;;x
+bad_shock_closing_charge_tactic;Failed Shock Closing Charge Tactic;;;;;;;;;;;;;x
+good_crushing_closing_charge_tactic;Devastating Crushing Closing Charge Tactic;;;;;;;;;;;;;x
+crushing_closing_charge_tactic;Crushing Closing Charge Tactic;;;;;;;;;;;;;x
+bad_crushing_closing_charge_tactic;Failed Crushing Closing Charge Tactic;;;;;;;;;;;;;x
+good_mameluke_closing_charge_tactic;Devastating Mameluke Closing Charge Tactic;;;;;;;;;;;;;x
+mameluke_closing_charge_tactic;Mameluke Closing Charge Tactic;;;;;;;;;;;;;x
+bad_mameluke_closing_charge_tactic;Failed Mameluke Closing Charge Tactic;;;;;;;;;;;;;x
+good_closing_roman_triple_line_tactic;Devastating Closing Roman Triple Line Tactic;;;;;;;;;;;;;x
+closing_roman_triple_line_tactic;Closing Roman Triple Line Tactic;;;;;;;;;;;;;x
+bad_closing_roman_triple_line_tactic;Failed Closing Roman Triple Line Tactic;;;;;;;;;;;;;x
+good_closing_infantry_rush_tactic;Devastating Closing Infantry Rush Tactic;;;;;;;;;;;;;x
+closing_infantry_rush_tactic;Closing Infantry Rush Tactic;;;;;;;;;;;;;x
+bad_closing_infantry_rush_tactic;Failed Closing Infantry Rush Tactic;;;;;;;;;;;;;x
+good_closing_shield_rush_tactic;Devastating Closing Shield Rush Tactic;;;;;;;;;;;;;x
+closing_shield_rush_tactic;Closing Shield Rush Tactic;;;;;;;;;;;;;x
+bad_closing_shield_rush_tactic;Failed Closing Shield Rush Tactic;;;;;;;;;;;;;x
+good_closing_intimidating_advance_tactic;Devastating Intimidating Closing Advance Tactic;;;;;;;;;;;;;x
+closing_intimidating_advance_tactic;Intimidating Closing Advance Tactic;;;;;;;;;;;;;x
+bad_closing_intimidating_advance_tactic;Failed Intimidating Closing Advance Tactic;;;;;;;;;;;;;x
+good_closing_aztec_combined_tactic;Devastating Closing Aztec Combined Rush Tactic;;;;;;;;;;;;;x
+closing_aztec_combined_tactic;Closing Aztec Combined Rush Tactic;;;;;;;;;;;;;x
+bad_closing_aztec_combined_tactic;Failed Closing Aztec Combined Rush Tactic;;;;;;;;;;;;;x
+good_guerilla_harass_tactic;Devastating Guerilla Harass Tactic;;;;;;;;;;;;;x
+guerilla_harass_tactic;Guerilla Harass Tactic;;;;;;;;;;;;;x
+bad_guerilla_harass_tactic;Failed Guerilla Harass Tactic;;;;;;;;;;;;;x
+good_retreat_and_ambush_tactic;Devastating Retreat and Ambush Tactic;;;;;;;;;;;;;x
+retreat_and_ambush_tactic;Retreat and Ambush Tactic;;;;;;;;;;;;;x
+bad_retreat_and_ambush_tactic;Failed Retreat and Ambush Tactic;;;;;;;;;;;;;x
+good_ambush_volley_tactic;Devastating Ambush Volley Tactic;;;;;;;;;;;;;x
+ambush_volley_tactic;Ambush Volley Tactic;;;;;;;;;;;;;x
+bad_ambush_volley_tactic;Failed Ambush Volley Tactic;;;;;;;;;;;;;x
+good_longbow_volley_tactic;Devastating Longbow Volley Tactic;;;;;;;;;;;;;x
+longbow_volley_tactic;Longbow Volley Tactic;;;;;;;;;;;;;x
+bad_longbow_volley_tactic;Failed Longbow Volley Tactic;;;;;;;;;;;;;x
+good_awesome_charge_tactic;Devastating Awesome Charge Tactic;;;;;;;;;;;;;x
+awesome_charge_tactic;Awesome Charge Tactic;;;;;;;;;;;;;x
+bad_awesome_charge_tactic;Failed Awesome Charge Tactic;;;;;;;;;;;;;x
+good_heavy_charge_tactic;Devastating Heavy Charge Tactic;;;;;;;;;;;;;x
+heavy_charge_tactic;Heavy Charge Tactic;;;;;;;;;;;;;x
+bad_heavy_charge_tactic;Failed Heavy Charge Tactic;;;;;;;;;;;;;x
+good_combined_charge_tactic;Devastating Combined Charge Tactic;;;;;;;;;;;;;x
+combined_charge_tactic;Combined Charge Tactic;;;;;;;;;;;;;x
+bad_combined_charge_tactic;Failed Combined Charge Tactic;;;;;;;;;;;;;x
+good_embolon_charge_tactic;Devastating Embolon Charge Tactic;;;;;;;;;;;;;x
+embolon_charge_tactic;Embolon Charge Tactic;;;;;;;;;;;;;x
+bad_embolon_charge_tactic;Failed Embolon Charge Tactic;;;;;;;;;;;;;x
+good_shock_charge_tactic;Devastating Shock Charge Tactic;;;;;;;;;;;;;x
+shock_charge_tactic;Shock Charge Tactic;;;;;;;;;;;;;x
+bad_shock_charge_tactic;Failed Shock Charge Tactic;;;;;;;;;;;;;x
+good_crushing_charge_tactic;Devastating Crushing Charge Tactic;;;;;;;;;;;;;x
+crushing_charge_tactic;Crushing Charge Tactic;;;;;;;;;;;;;x
+bad_crushing_charge_tactic;Failed Crushing Charge Tactic;;;;;;;;;;;;;x
+good_mameluke_charge_tactic;Devastating Mameluke Charge Tactic;;;;;;;;;;;;;x
+mameluke_charge_tactic;Mameluke Charge Tactic;;;;;;;;;;;;;x
+bad_mameluke_charge_tactic;Failed Mameluke Charge Tactic;;;;;;;;;;;;;x
+good_horseback_raid_tactic;Devastating Horseback Raid Tactic;;;;;;;;;;;;;x
+horseback_raid_tactic;Horseback Raid Tactic;;;;;;;;;;;;;x
+bad_horseback_raid_tactic;Failed Horseback Raid Tactic;;;;;;;;;;;;;x
+good_quick_attack_tactic;Devastating Quick Attack Tactic;;;;;;;;;;;;;x
+quick_attack_tactic;Quick Attack Tactic;;;;;;;;;;;;;x
+bad_quick_attack_tactic;Failed Quick Attack Tactic;;;;;;;;;;;;;x
+good_attriting_raid_tactic;Devastating Attriting Raid Tactic;;;;;;;;;;;;;x
+attriting_raid_tactic;Attriting Raid Tactic;;;;;;;;;;;;;x
+bad_attriting_raid_tactic;Failed Attriting Raid Tactic;;;;;;;;;;;;;x
+good_mameluke_raid_tactic;Devastating Mameluke Raid Tactic;;;;;;;;;;;;;x
+mameluke_raid_tactic;Mameluke Raid Tactic;;;;;;;;;;;;;x
+bad_mameluke_raid_tactic;Failed Mameluke Raid Tactic;;;;;;;;;;;;;x
+good_roman_triple_line_tactic;Devastating Roman Triple Line Tactic;;;;;;;;;;;;;x
+roman_triple_line_tactic;Roman Triple Line Tactic;;;;;;;;;;;;;x
+bad_roman_triple_line_tactic;Failed Roman Triple Line Tactic;;;;;;;;;;;;;x
+good_infantry_rush_tactic;Devastating Infantry Rush Tactic;;;;;;;;;;;;;x
+infantry_rush_tactic;Infantry Rush Tactic;;;;;;;;;;;;;x
+bad_infantry_rush_tactic;Failed Infantry Rush Tactic;;;;;;;;;;;;;x
+good_shield_rush_tactic;Devastating Shield Rush Tactic;;;;;;;;;;;;;x
+shield_rush_tactic;Shield Rush Tactic;;;;;;;;;;;;;x
+bad_shield_rush_tactic;Failed Shield Rush Tactic;;;;;;;;;;;;;x
+good_intimidating_advance_tactic;Devastating Intimidating Advance Tactic;;;;;;;;;;;;;x
+intimidating_advance_tactic;Intimidating Advance Tactic;;;;;;;;;;;;;x
+bad_intimidating_advance_tactic;Failed Intimidating Advance Tactic;;;;;;;;;;;;;x
+good_aztec_combined_tactic;Devastating Aztec Combined Rush Tactic;;;;;;;;;;;;;x
+aztec_combined_tactic;Aztec Combined Rush Tactic;;;;;;;;;;;;;x
+bad_aztec_combined_tactic;Failed Aztec Combined Rush Tactic;;;;;;;;;;;;;x
+good_schiltron_tactic;Devastating Schiltron Tactic;;;;;;;;;;;;;x
+schiltron_tactic;Schiltron Tactic;;;;;;;;;;;;;x
+bad_schiltron_tactic;Failed Schiltron Tactic;;;;;;;;;;;;;x
+good_pike_assault_tactic;Devastating Pike Assault Tactic;;;;;;;;;;;;;x
+pike_assault_tactic;Pike Assault Tactic;;;;;;;;;;;;;x
+bad_pike_assault_tactic;Failed Pike Assault Tactic;;;;;;;;;;;;;x
+glorious_norse_tactic;Winter's Maw Tactic;;;;;;;;;;;;;x
+glorious_tengri_tactic;Wolf's Howling Tactic;;;;;;;;;;;;;x
+glorious_slavic_tactic;Lightning Raid Tactic;;;;;;;;;;;;;x
+glorious_baltic_tactic;Last Stand Tactic;;;;;;;;;;;;;x
+glorious_finnish_tactic;Elk's Lament Tactic;;;;;;;;;;;;;x
+glorious_west_african_tactic;Bull Horns Tactic;;;;;;;;;;;;;x
+glorious_zun_tactic;Lightburst Tactic;;;;;;;;;;;;;x
+glorious_bon_tactic;Ambush Raid Tactic;;;;;;;;;;;;;x
+glorious_hellenic_tactic;Quincunx Tactic;;;;;;;;;;;;;x
+glorious_aztec_tactic;Water Fire Tactic;;;;;;;;;;;;;x
