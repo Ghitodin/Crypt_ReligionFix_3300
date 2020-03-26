@@ -1317,7 +1317,7 @@ NMilitary = {
 	LOOT_HOLDING_BUILDING_DEST_ODDS = 10,			-- there is a 1 in this chance a random building is destroyed when looted
 	SETTLED_ADVENTURER_MODIFIER_YEARS = 20,			-- How long provinces are spared from raiding after settling a raider adventurer.
 
-	RETINUE_FROM_REALMSIZE = 1.5,
+	RETINUE_FROM_REALMSIZE = 1.2,
 	RETINUE_TITLE_MODIFIER = 0.5,
 	RETINUE_INCREASE_PER_TECH = 1,
 	RETINUE_HIRE_COST_MULTIPLIER = 0.14,			-- Retinues are free to hire atm, but they cost a lot to reinforce
