@@ -1317,7 +1317,7 @@ NMilitary = {
 	LOOT_HOLDING_BUILDING_DEST_ODDS = 10,			-- there is a 1 in this chance a random building is destroyed when looted
 	SETTLED_ADVENTURER_MODIFIER_YEARS = 20,			-- How long provinces are spared from raiding after settling a raider adventurer.
 
-	RETINUE_FROM_REALMSIZE = 1.5,
+	RETINUE_FROM_REALMSIZE = 1.2,
 	RETINUE_TITLE_MODIFIER = 0.5,
 	RETINUE_INCREASE_PER_TECH = 1,
 	RETINUE_HIRE_COST_MULTIPLIER = 0.14,			-- Retinues are free to hire atm, but they cost a lot to reinforce
@@ -1337,7 +1337,7 @@ NMilitary = {
 	MAX_COMMANDERS_EMPEROR = 8,
 
 	LIEGE_LEVY_REINF_RATE = 0.05,
-	LIEGE_LEVY_SIZE_MULTIPLIER = 0.5,				-- The Size of the liege levy will be the total troops in the vassal subrealm * this
+	LIEGE_LEVY_SIZE_MULTIPLIER = 0.4,				-- The Size of the liege levy will be the total troops in the vassal subrealm * this
 	LIEGE_FLEET_SIZE_MULTIPLIER = 1.0,				-- As above but for galleys
 	LIEGE_LEVY_COST_MULTIPLIER = 1.0,				-- The vassal will pay regular maintenance * this for the liege levy
 	LIEGE_LEVY_SUBUNIT_SIZE_CUTOFF = 3000,			-- The max size of each liege levy subunit.
