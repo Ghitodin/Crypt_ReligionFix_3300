@@ -2393,8 +2393,8 @@ decisions = {
 						}
 					}
 				}
-				prestige = 10000
-				wealth = 10000
+				prestige = 7000
+				wealth = 12000
 			}
 			
 			OR = {
@@ -2490,7 +2490,7 @@ decisions = {
 						}
 					}
 				}
-				wealth = -10000
+				wealth = -12000
 			}
 			
 			custom_tooltip = { text = form_new_empire_tooltip }
