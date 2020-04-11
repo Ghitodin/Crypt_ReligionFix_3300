@@ -230,7 +230,7 @@ dogmatic_religion = {
 }
 
 cosmopolitan_religion = {
-	authority = -15
+	authority = -5
 	years = 1000
 }
 
