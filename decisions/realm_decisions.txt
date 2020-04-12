@@ -2397,7 +2397,7 @@ decisions = {
 				wealth = 12000
 			}
 			
-			OR = {
+			AND = {
 				realm_size = 270
 				custom_tooltip = {
 					text = form_new_empire_requirement_tooltip
