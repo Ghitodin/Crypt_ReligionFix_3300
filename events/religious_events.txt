@@ -5531,7 +5531,7 @@ narrative_event = {
 		NOT = {
 			has_alternate_start_parameter = { key = religion_names value = random }
 		}
-		year = 900
+		year = 1000
 		controls_religion = yes
 		NOT = { has_global_flag = christian_crusades_unlocked }
 		
@@ -5603,7 +5603,7 @@ narrative_event = {
 		NOT = {
 			has_alternate_start_parameter = { key = religion_names value = random }
 		}
-		year = 900
+		year = 1000
 		controls_religion = yes
 		NOT = { has_global_flag = christian_crusades_unlocked }
 		
@@ -5664,7 +5664,7 @@ narrative_event = {
 		NOT = {
 			has_alternate_start_parameter = { key = religion_names value = random }
 		}
-		year = 900
+		year = 1000
 		controls_religion = yes
 		NOT = { has_global_flag = christian_crusades_unlocked }
 		
@@ -5783,7 +5783,7 @@ narrative_event = {
 		NOT = {
 			has_alternate_start_parameter = { key = religion_names value = random }
 		}
-		year = 900
+		year = 1000
 		controls_religion = yes
 		NOT = { has_global_flag = muslim_jihads_unlocked }
 		774 = { # Jerusalem
@@ -5835,7 +5835,7 @@ narrative_event = {
 		NOT = {
 			has_alternate_start_parameter = { key = religion_names value = random }
 		}
-		year = 900
+		year = 1000
 		controls_religion = yes
 		NOT = { has_global_flag = muslim_jihads_unlocked }
 		719 = { # Mecca
@@ -5887,7 +5887,7 @@ narrative_event = {
 		NOT = {
 			has_alternate_start_parameter = { key = religion_names value = random }
 		}
-		year = 900
+		year = 1000
 		controls_religion = yes
 		NOT = { has_global_flag = muslim_jihads_unlocked }
 		OR = {
