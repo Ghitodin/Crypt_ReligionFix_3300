@@ -879,7 +879,7 @@ decisions = {
 				}
 			}
 			modifier = {
-				factor = 1.15
+				factor = 1.05
 				any_neighbor_independent_ruler = {
 					NOT = { religion = ROOT }
 					war = no
@@ -896,7 +896,7 @@ decisions = {
 				}
 			}
 			modifier = {
-				factor = 1.15
+				factor = 1.05
 				any_neighbor_independent_ruler = {
 					NOT = { religion = ROOT }
 					war = no
@@ -913,7 +913,7 @@ decisions = {
 				}
 			}
 			modifier = {
-				factor = 1.15
+				factor = 1.05
 				any_neighbor_independent_ruler = {
 					NOT = { religion = ROOT }
 					war = no
@@ -930,7 +930,7 @@ decisions = {
 				}
 			}
 			modifier = {
-				factor = 1.15
+				factor = 1.05
 				any_neighbor_independent_ruler = {
 					NOT = { religion = ROOT }
 					war = no
@@ -947,7 +947,7 @@ decisions = {
 				}
 			}
 			modifier = {
-				factor = 1.25
+				factor = 1.1
 				any_neighbor_independent_ruler = {
 					NOT = { religion = ROOT }
 					war = no
@@ -964,7 +964,7 @@ decisions = {
 				}
 			}
 			modifier = {
-				factor = 1.25
+				factor = 1.2
 				any_neighbor_independent_ruler = {
 					NOT = { religion = ROOT }
 					war = no
@@ -998,7 +998,7 @@ decisions = {
 				}
 			}
 			modifier = {
-				factor = 9
+				factor = 1.25
 				trait = sympathy_christendom
 				any_neighbor_independent_ruler = {
 					NOT = { religion = ROOT }
@@ -1012,7 +1012,7 @@ decisions = {
 				}
 			}
 			modifier = {
-				factor = 1.75
+				factor = 1.15
 				trait = sympathy_islam
 				any_neighbor_independent_ruler = {
 					NOT = { religion = ROOT }
@@ -1026,7 +1026,7 @@ decisions = {
 				}
 			}
 			modifier = {
-				factor = 4
+				factor = 1.25
 				any_neighbor_independent_ruler = {
 					NOT = { religion = ROOT }
 					war = no
@@ -1041,7 +1041,7 @@ decisions = {
 				}
 			}
 			modifier = {
-				factor = 1.5
+				factor = 1.15
 				trait = sympathy_zoroastrianism
 				any_neighbor_independent_ruler = {
 					NOT = { religion = ROOT }
@@ -1055,7 +1055,7 @@ decisions = {
 				}
 			}
 			modifier = {
-				factor = 7
+				factor = 1.2
 				trait = sympathy_judaism
 				any_neighbor_independent_ruler = {
 					NOT = { religion = ROOT }
@@ -1070,7 +1070,7 @@ decisions = {
 				}
 			}
 			modifier = {
-				factor = 4
+				factor = 2
 				any_neighbor_independent_ruler = {
 					NOT = { religion = ROOT }
 					war = no
@@ -1087,42 +1087,42 @@ decisions = {
 				NOT = { year = 800 }
 			}
 			modifier = {
-				factor = 0.05
+				factor = 0.2
 				is_hard_to_convert = yes
 			}
 			modifier = {
-				factor = 1.5
+				factor = 1.25
 				NOT = { is_hard_to_convert = yes }
 				year = 900
 			}
 			modifier = {
-				factor = 2
+				factor = 1.5
 				NOT = { is_hard_to_convert = yes }
 				year = 1000
 			}
 			modifier = {
-				factor = 3
+				factor = 2
 				NOT = { is_hard_to_convert = yes }
 				year = 1200
 			}
 			modifier = {
-				factor = 1.75
+				factor = 1.5
 				NOT = { religion_authority = 0.1 }
 			}
 			modifier = {
-				factor = 1.75
+				factor = 1.4
 				NOT = { religion_authority = 0.2 }
 			}
 			modifier = {
-				factor = 1.75
+				factor = 1.3
 				NOT = { religion_authority = 0.3 }
 			}
 			modifier = {
-				factor = 1.5
+				factor = 1.2
 				NOT = { religion_authority = 0.4 }
 			}
 			modifier = {
-				factor = 1.25
+				factor = 1
 				NOT = { religion_authority = 0.5 }
 			}
 			modifier = {
@@ -1184,12 +1184,29 @@ decisions = {
 				factor = 0.75
 				religion_authority = 0.6
 			}
+			
+			modifier = {
+				factor = 0.6
+				religion_authority = 0.7
+			}
+			
+			modifier = {
+				factor = 0.4
+				religion_authority = 0.8
+			}
+			
+			modifier = {
+				factor = 0.2
+				religion_authority = 0.9
+			}
+			
 			modifier = {
 				factor = 0.1
 				religion_authority = 1.0
 			}
+			
 			modifier = {
-				factor = 0.15
+				factor = 0.1
 				trait = zealous
 			}
 			modifier = {
@@ -1218,7 +1235,7 @@ decisions = {
 				tier = EMPEROR
 			}
 			modifier = {
-				factor = 0.15 #Unreformed Pagans not bordering non-Pagans (or reformed Pagans) should be much less likely to convert.
+				factor = 0.1 #Unreformed Pagans not bordering non-Pagans (or reformed Pagans) should be much less likely to convert.
 				NOT = { 
 					any_neighbor_independent_ruler = { 
 						OR = { 
@@ -1229,7 +1246,7 @@ decisions = {
 				}
 			}
 			modifier = {
-				factor = 0.5 #Strength in numbers make tribes less likely to convert.
+				factor = 0.2 #Strength in numbers make tribes less likely to convert.
 				lower_tier_than = KING
 				any_neighbor_independent_ruler = { 
 					religion_group = pagan_group
@@ -1304,7 +1321,7 @@ decisions = {
 					defender = { character = ROOT }
 					attacker = {
 						NOT = { religion = ROOT }
-						religion_authority = 0.45
+						religion_authority = 0.65
 						OR = {
 							NOT = { religion_group = pagan_group }
 							is_reformed_religion = yes
