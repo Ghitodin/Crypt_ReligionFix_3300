@@ -4,7 +4,7 @@ targetted_decisions = {
 	request_sponsored_baptism = {
 		ai_target_filter = court
 		ai = no
-		
+
 		from_potential = {
 			has_dlc = "Holy Fury"
 			is_tribal = yes
@@ -34,6 +34,7 @@ targetted_decisions = {
 			}
 		}
 		allow = {
+			always = no
 			is_within_diplo_range = FROM
 			prisoner = no
 			has_regent = no
@@ -523,6 +524,7 @@ decisions = {
 			independent = yes
 		} 
 		allow = { 
+			always = no
 			war = no
 			prestige = 500
 			any_independent_ruler = {
