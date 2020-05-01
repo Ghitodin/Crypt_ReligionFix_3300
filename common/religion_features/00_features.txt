@@ -1032,6 +1032,7 @@ religion_doctrine = {
 				has_selected_religion_feature = religion_defensive
 				has_selected_religion_feature = religion_feature_aztec #Redundant
 				has_selected_religion_feature = religion_feature_tengri
+				has_selected_religion_feature = religion_feature_norse 
 			}
 		}
 		effect = {
@@ -1142,21 +1143,35 @@ religion_doctrine = {
 			NOR = { 
 				has_selected_religion_feature = religion_adventuring
 				has_selected_religion_feature = religion_seafaring
+				has_selected_religion_feature = religion_relentless
 			}
 		}
 		effect = {
-			custom_tooltip = { text = tooltip_religion_feature_adventuring }
 			custom_tooltip = { text = tooltip_religion_feature_rivermovement }
 			custom_tooltip = { text = tooltip_religion_feature_ship_maintenance }
+			custom_tooltip = { text = tooltip_religion_feature_offensive }
+			custom_tooltip = { text = tooltip_religion_feature_anti_attrition }
 			custom_tooltip = { text = tooltip_religion_feature_seafaring }
 			hidden_tooltip = { 
-				enable_prepared_invasion = yes
 				set_seafaring = yes
 				set_allow_rivermovement = yes
+				set_ignores_defensive_attrition = yes
+				set_unit_modifier = { 
+					light_infantry_offensive = 0.05
+					heavy_infantry_offensive = 0.05
+					light_cavalry_offensive = 0.05 
+					knights_offensive = 0.05 
+					pikemen_offensive = 0.05 
+					archers_offensive = 0.05
+					horse_archers_offensive = 0.05
+					camel_cavalry_offensive = 0.05
+					war_elephants_offensive = 0.05
+					key = "RELENTLESS_RELIGION"
+				}
 			}
-		}
-		ai_will_do = {
-			factor = 50
+			ai_will_do = {
+				factor = 50
+			}
 		}
 	}
 	religion_feature_tengri = {
